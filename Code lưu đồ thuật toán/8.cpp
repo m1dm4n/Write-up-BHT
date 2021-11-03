@@ -10,6 +10,7 @@ void Nhon(double a, double b, double c)
     else
         cout << "Tam giac nhon \n" ;
 }
+
 void Tu(double a, double b, double c)
 {
     if (a == b || b == c || a == c)
