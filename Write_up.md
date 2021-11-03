@@ -10,7 +10,7 @@ Bài này điều đầu tiên đập vào mình là lặp tới 11 =)
 ### Lưu đồ:
 - [Xem lưu đồ tại đây.](https://user-images.githubusercontent.com/92845822/140017875-5cc6271f-53c1-4ed8-a96c-62939c9beff4.png)
 - Thay vì nhân từng x mình sẽ nhân với giá trị của nó tại thời điểm đó (gấp đôi số mũ).
-- Đầu tiên mình khởi tạo S = x * x mất 1 phép nhân. 
+- Đầu tiên mình khởi tạo `S = x * x` mất 1 phép nhân. 
       
   <img src="https://i.imgur.com/c2Wwk2I.png"> 
 
@@ -23,7 +23,7 @@ Bài này điều đầu tiên đập vào mình là lặp tới 11 =)
 
   <img src="https://i.imgur.com/Da3Byen.png">     <img src="https://i.imgur.com/Da3Byen.png">
           
-                x^2 * x^2 * x                    x^5 * x^5 * x 
+                `x^2 * x^2 * x                    x^5 * x^5 * x` 
 - Tổng là mất 5 phép nhân thay vì 11 nếu chạy vòng lặp.
 
 ### Code:
@@ -47,12 +47,12 @@ Ta có thể lấy 1 số bất kì để phân tích:
    - 53 = 5*10 + 3
    - 5 = 0*10 + 5
  - Kết hợp giữa phép chia và phép chia lấy dư cho 10 sẽ cho kết quả cần tìm.
- - Khởi tạo giá trị **t** để gán số dư vào, giá trị **S** để tính tổng của chúng. 
+ - Khởi tạo giá trị `t` để gán số dư vào, giá trị `S` để tính tổng của chúng. 
  - Tạo 1 vòng lặp vì mình không biết n có bao nhiêu chữ số.
 
  <img src="https://i.imgur.com/BqHSMy0.png">
  
- - Sau mỗi vòng lặp n sẽ giảm 10 lần và dừng ngay khi n = 0.
+ - Sau mỗi vòng lặp n sẽ giảm 10 lần và dừng ngay khi `n = 0`.
  - Xuất S.
 
 ### Code:
@@ -79,17 +79,17 @@ int Sumofn(int n)
 Đây là dạng tính tổng của các dãy số.
 ### Lưu đồ:
  - [Xem lưu đồ tại đây.](https://user-images.githubusercontent.com/92845822/140024837-f5d4bdb1-13fd-4b05-970c-6d25ee3e9837.png)
- - Dãy số thứ **m (m <= n)** bất kì sẽ có dạng tử là **x^m** và mẫu có dạng tổng các số nguyên từ **1->m**, **m+1** thì tử là **(x^m) * x** và mẫu có dạng tổng các số nguyên từ **1->m** cộng **m+1**.
- - Mình sẽ tạo 2 biến để lưu tử **N**, mẫu **C** và **S** để gán **N/C** sau mỗi vòng lặp.
- - Ta set giá trị cho **N** và **C** lần lượt là **N = 1 (x^0)** và **C = 0**.
- - Chạy vòng lặp từ 1 tới **n**.
+ - Dãy số thứ `m (m <= n)` bất kì sẽ có dạng tử là `x^m` và mẫu có dạng tổng các số nguyên từ `1->m`, `m+1` thì tử là `(x^m) * x` và mẫu có dạng tổng các số nguyên từ `1->m` cộng `m+1`.
+ - Mình sẽ tạo 2 biến để lưu tử `N`, mẫu `C` và `S` để gán `N/C` sau mỗi vòng lặp.
+ - Ta set giá trị cho `N` và `C` lần lượt là `N = 1 (x^0)` và `C = 0`.
+ - Chạy vòng lặp từ 1 tới `n`.
 
    <img src="https://i.imgur.com/hj8l86Y.png">
    
  - Xuất S
 ### Code:
 Áp dụng tương tự từ lưu đồ:
-- Vì số lần lặp biết trước là **n** nên ta dùng **for**, ngoài ra khi cập nhật biến ta dùng các toán tử gán **+= , *=**.
+- Vì số lần lặp biết trước là `n` nên ta dùng `for`, ngoài ra khi cập nhật biến ta dùng các toán tử gán `+= , *=`.
 - 1 lưu ý duy nhất là khi khởi tạo giá trị là int thì khi gán vào S phải ép kiểu để compiler không bỏ phần thập phân.
 ```cpp
  S += (double)tich / (double)tong;
@@ -102,17 +102,17 @@ Áp dụng tương tự từ lưu đồ:
 # Bài 4
 <img src="https://i.imgur.com/r7iCg94.png">
 
-Bài này tương tự tính tử ở bài 3 nhưng thay vì nhân **x**  ta nhân **-x ^ 2** .
+Bài này tương tự tính tử ở bài 3 nhưng thay vì nhân `x`  ta nhân `-x ^ 2` .
 
 ### Lưu đồ:
 - [Xem lưu đồ tại đây.](https://user-images.githubusercontent.com/92845822/140024890-5e56df20-5af0-4d6f-bf4e-dc74153792ce.png)
-- Tạo 1 biến **X** để lưu giá trị mới của phần tử thứ **n** sau mỗi vòng lặp và **S** để lưu tổng của chúng.
-- Khởi tạo giá trị **X = -x * x** là giá trị của phần tử đầu tiên, chạy vòng lặp từ 1, lấy **S = S + X** và cuối vòng lặp gán giá trị mới cho **X**
+- Tạo 1 biến `X` để lưu giá trị mới của phần tử thứ `n` sau mỗi vòng lặp và `S` để lưu tổng của chúng.
+- Khởi tạo giá trị `X = -x * x` là giá trị của phần tử đầu tiên, chạy vòng lặp từ 1, lấy `S = S + X` và cuối vòng lặp gán giá trị mới cho `X`
 <img src="https://i.imgur.com/TW6tkpw.png">
 
 ### Code:
 Áp dụng tương tự từ lưu đồ:
-- Vì số lần lặp biết trước là **n** nên ta dùng **for**, ngoài ra khi cập nhật biến ta dùng các toán tử gán **+= , *=**.
+- Vì số lần lặp biết trước là `n` nên ta dùng `for`, ngoài ra khi cập nhật biến ta dùng các toán tử gán `+= , *=`.
 - [Xem code tại đây.](https://github.com/Tsouth113/Write-up-BHT/blob/main/Code%20l%C6%B0u%20%C4%91%C3%B4%CC%80%20thu%C3%A2%CC%A3t%20toa%CC%81n/4.cpp)
 
 
@@ -121,20 +121,20 @@ Áp dụng tương tự từ lưu đồ:
 # Bài 5
 <img src="https://i.imgur.com/WnLGPVM.png">
 
-Bài này nhìn vào thì sẽ nghĩ ngay tới vòng lặp và dùng căn bậc 2 **sqrt( )**. Sử dụng vòng lặp để căn lồng căn và toán tử ***=** để tính x mũ n.
+Bài này nhìn vào thì sẽ nghĩ ngay tới vòng lặp và dùng căn bậc 2 `sqrt( )`. Sử dụng vòng lặp để căn lồng căn và toán tử `*=` để tính `x^n`.
 
 
 ### Lưu đồ:
  - [Xem lưu đồ tại đây.](https://user-images.githubusercontent.com/92845822/140024971-1651388d-a455-4b86-9293-f004242e0439.png)
- - Tạo 1 biến **T** để lưu giá trị **x^n** sau mỗi vòng lặp.
- - Vì đề cho thấp nhất là x^1 nên mình khởi tạo **S = sqrt(x)** luôn. Do đó ta chạy vòng lặp với **n = 2** trở đi.
+ - Tạo 1 biến `T` để lưu giá trị `x^n` sau mỗi vòng lặp.
+ - Vì đề cho thấp nhất là `x^1` nên mình khởi tạo `S = sqrt(x)` luôn. Do đó ta chạy vòng lặp với `n = 2`trở đi.
   ![image](https://user-images.githubusercontent.com/92845822/140061326-2048a8e4-92ec-48e6-98a7-4fd2b8ff69b7.png)
 
- - **S** mới = căn của **giá trị luỹ thừa mới + S cũ** .
- - Chạy tới **n** rồi xuất **S**.
+ - `S mới = căn của giá trị luỹ thừa mới + S cũ` .
+ - Chạy tới `n` rồi xuất `S`.
 
 ### Code:
-
+- 
 - [Xem code tại đây.](https://github.com/Tsouth113/Write-up-BHT/blob/main/Code%20l%C6%B0u%20%C4%91%C3%B4%CC%80%20thu%C3%A2%CC%A3t%20toa%CC%81n/5.cpp)
 
 
