@@ -109,8 +109,8 @@ Bài này tương tự tính tử ở bài 3 nhưng thay vì nhân **x**
 <img src="https://i.imgur.com/TW6tkpw.png">
 
 ### Code:
-
-
+Áp dụng tương tự từ lưu đồ:
+- Vì số lần lặp biết trước là **n** nên ta dùng **for**, ngoài ra khi cập nhật biến ta dùng các toán tử gán **+= , *=**.
 - [Xem code tại đây.](https://github.com/Tsouth113/Write-up-BHT/blob/main/Code%20l%C6%B0u%20%C4%91%C3%B4%CC%80%20thu%C3%A2%CC%A3t%20toa%CC%81n/4.cpp)
 
 
