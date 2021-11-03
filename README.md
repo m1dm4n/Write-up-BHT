@@ -1,6 +1,7 @@
-# HELLO
+# Welcome to my github
 Đây là deadline nhập môn của Ban Học Tập và cũng là lần đầu viết mình viết wrire up.
-#
+
+# Mô tả
 Các bạn có thể bấm vào link bên dưới để xem đề bài:
 - [Deadline LDTT](https://drive.google.com/file/d/1Tf0uljRKgxDHpSYT-wfVkzG4wlTDK89e/view?fbclid=IwAR0IQ1rzSMuDaOCzNNEVWS2FNcbbbOWkvH-XavZeAr3u-F_Txi__LlSF_jI)
 
