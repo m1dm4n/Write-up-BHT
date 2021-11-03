@@ -4,7 +4,8 @@
 
 #    Bài 1  
 <img src="https://i.imgur.com/BbzX9bc.png">
-Bài này điều đầu tiên đập vào mình là lặp tới 11 =)). Nhưng mọi người hãy lưu ý chỗ **phép nhân tối thiểu**.
+
+Bài này điều đầu tiên đập vào mình là lặp tới 11 =)). Nhưng mọi người hãy lưu ý chỗ **phép nhân tối thiểu** .
 
 ### Lưu đồ:
 - [Xem lưu đồ tại đây.](https://user-images.githubusercontent.com/92845822/140017875-5cc6271f-53c1-4ed8-a96c-62939c9beff4.png)
@@ -100,7 +101,8 @@ Áp dụng tương tự từ lưu đồ:
 
 # Bài 4
 <img src="https://i.imgur.com/r7iCg94.png">
-Bài này tương tự tính tử ở bài 3 nhưng thay vì nhân **x** ta nhân **-x^2**
+
+Bài này tương tự tính tử ở bài 3 nhưng thay vì nhân **x**  ta nhân **-x ^ 2** .
 
 ### Lưu đồ:
 - [Xem lưu đồ tại đây.](https://user-images.githubusercontent.com/92845822/140024890-5e56df20-5af0-4d6f-bf4e-dc74153792ce.png)
@@ -119,10 +121,20 @@ Áp dụng tương tự từ lưu đồ:
 # Bài 5
 <img src="https://i.imgur.com/WnLGPVM.png">
 
+Bài này nhìn vào thì sẽ nghĩ ngay tới vòng lặp và dùng căn bậc 2 **sqrt( )**. Sử dụng vòng lặp để căn lồng căn và toán tử ***=** để tính x mũ n.
+
+
 ### Lưu đồ:
  - [Xem lưu đồ tại đây.](https://user-images.githubusercontent.com/92845822/140024971-1651388d-a455-4b86-9293-f004242e0439.png)
+ - Tạo 1 biến **T** để lưu giá trị **x^n** sau mỗi vòng lặp.
+ - Vì đề cho thấp nhất là x^1 nên mình khởi tạo **S = sqrt(x)** luôn. Do đó ta chạy vòng lặp với **n = 2** trở đi.
+  ![image](https://user-images.githubusercontent.com/92845822/140061326-2048a8e4-92ec-48e6-98a7-4fd2b8ff69b7.png)
+
+ - **S** mới = căn của **giá trị luỹ thừa mới + S cũ** .
+ - Chạy tới **n** rồi xuất **S**.
 
 ### Code:
+
 - [Xem code tại đây.](https://github.com/Tsouth113/Write-up-BHT/blob/main/Code%20l%C6%B0u%20%C4%91%C3%B4%CC%80%20thu%C3%A2%CC%A3t%20toa%CC%81n/5.cpp)
 
 
