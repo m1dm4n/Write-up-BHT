@@ -100,13 +100,17 @@ Áp dụng tương tự từ lưu đồ:
 
 # Bài 4
 <img src="https://i.imgur.com/r7iCg94.png">
-
-
+Bài này tương tự tính tử ở bài 3 nhưng thay vì nhân **x** ta nhân **-x^2**
 
 ### Lưu đồ:
 - [Xem lưu đồ tại đây.](https://user-images.githubusercontent.com/92845822/140024890-5e56df20-5af0-4d6f-bf4e-dc74153792ce.png)
+- Tạo 1 biến **X** để lưu giá trị mới của phần tử thứ **n** sau mỗi vòng lặp và **S** để lưu tổng của chúng.
+- Khởi tạo giá trị **X = -x * x** là giá trị của phần tử đầu tiên, chạy vòng lặp từ 1, lấy **S = S + X** và cuối vòng lặp gán giá trị mới cho **X**
+<img src="https://i.imgur.com/TW6tkpw.png">
 
 ### Code:
+
+
 - [Xem code tại đây.](https://github.com/Tsouth113/Write-up-BHT/blob/main/Code%20l%C6%B0u%20%C4%91%C3%B4%CC%80%20thu%C3%A2%CC%A3t%20toa%CC%81n/4.cpp)
 
 
