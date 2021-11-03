@@ -134,20 +134,36 @@ Bài này nhìn vào thì sẽ nghĩ ngay tới vòng lặp và dùng
  - Chạy tới `n` rồi xuất `S`.
 
 ### Code:
-- 
+Áp dụng tương tự từ lưu đồ:
+- Thêm thư viện **cmath** để sử dụng căn bậc 2.
+```cpp
+#include <cmath>
+```
+- Vì số lần lặp biết trước là `n` nên ta dùng `for`.
 - [Xem code tại đây.](https://github.com/Tsouth113/Write-up-BHT/blob/main/Code%20l%C6%B0u%20%C4%91%C3%B4%CC%80%20thu%C3%A2%CC%A3t%20toa%CC%81n/5.cpp)
 
 
 
 
 # Bài 6
+
 <img src="https://i.imgur.com/zR5NDxl.png">
 
+Bài này thì sẽ dễ nếu đề không có **độ chính xác 10^-6**.
+- Các bạn có thể về độ chính xác [tại đây](https://dinhnghia.vn/so-gan-dung-va-sai-so-lop-10.html)
+
+Sau khi thông não thì bạn có thể thấy không phải là tính tổng tới giá trị `1/n` rồi làm tròn. Cách làm của mình như sau:
+
 ### Lưu đồ:
- - [Xem lưu đồ tại đây.](https://user-images.githubusercontent.com/92845822/140025130-b3e5be2d-5a7d-4cf4-a1bd-5a91b2865af0.png)
+- Với dạng bài này theo như mình tìm hiểu và được khai sáng ta sẽ cộng cho tới khi xuất hiện phần tử tiếp theo nhỏ hơn độ chính xác đã cho: `0.000001`.
+- Đồng nghĩ với việc tại thời điểm đó `1/n < 0.000001`.
+- Lúc này `S` sẽ có dạng `S `![equation](https://user-images.githubusercontent.com/92845822/140070604-0b47f9ec-5e18-4910-88af-aa2bfa39629c.png) `0,000001`.
+- Vậy kết luận bài này sẽ lặp lại các phép cộng và cho đến khi thoã điều kiện trên thì thôi.
+- [Xem lưu đồ tại đây.](https://user-images.githubusercontent.com/92845822/140025130-b3e5be2d-5a7d-4cf4-a1bd-5a91b2865af0.png)
 
 
 ### Code:
+- Bài này không biết trước số vòng lặp nên ta dùng while
 - [Xem code tại đây.](https://github.com/Tsouth113/Write-up-BHT/blob/main/Code%20l%C6%B0u%20%C4%91%C3%B4%CC%80%20thu%C3%A2%CC%A3t%20toa%CC%81n/6.cpp)
 
 
