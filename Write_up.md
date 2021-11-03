@@ -66,7 +66,7 @@ int Sumofn(int n)
     return n % 10 + Sumofn(n / 10);
 }
 ```
-- Lấy số dư và tiếp tục chạy hàm với **n = n/10**.
+- Lấy số dư và tiếp tục chạy hàm với `n = n/10`.
 - [Xem code tại đây.](https://github.com/Tsouth113/Write-up-BHT/blob/main/Code%20l%C6%B0u%20%C4%91%C3%B4%CC%80%20thu%C3%A2%CC%A3t%20toa%CC%81n/2.cpp)
 
 
