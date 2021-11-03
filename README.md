@@ -1,4 +1,4 @@
-# Write Up BHT
+# HELLO
 Đây là deadline nhập môn của Ban Học Tập và cũng là lần đầu viết mình viết wrire up.
 #
 Các bạn có thể bấm vào link bên dưới để xem đề bài:
@@ -8,6 +8,7 @@ Các bạn có thể bấm vào link bên dưới để xem đề bài:
 - [Lưu đồ Thuật toán.](https://drive.google.com/file/d/1YZQUHe-R0ihjJH5_zdTF9vpEYGDaRMSo/view?usp=sharing)
 - [Code từ lưu đồ Thuật toán (C++).](https://github.com/Tsouth113/Write-up-BHT/tree/main/Code%20l%C6%B0u%20%C4%91%C3%B4%CC%80%20thu%C3%A2%CC%A3t%20toa%CC%81n)
 
-Nếu các bạn thấy khó hiểu ở phần nào có thể xem write up chi tiết về ý tưởng và cách giải [tại đây](https://github.com/Tsouth113/Write-up-BHT/blob/main/Write_up.md).
+Nếu các bạn thấy khó hiểu ở phần nào có thể xem write up chi tiết về ý tưởng và cách giải tại đây:
+- [Write up](https://github.com/Tsouth113/Write-up-BHT/blob/main/Write_up.md)
 
 
