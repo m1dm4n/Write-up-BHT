@@ -29,6 +29,8 @@ Bài này điều đầu tiên đập vào mình là lặp tới 11 =)
 ### Code:
 Bài này thì chỉ có phép toán nên vẽ sao code vậy thôi.
 - [Xem code tại đây.](https://github.com/Tsouth113/Write-up-BHT/blob/main/Code%20l%C6%B0u%20%C4%91%C3%B4%CC%80%20thu%C3%A2%CC%A3t%20toa%CC%81n/1.cpp)
+	
+	![image](https://user-images.githubusercontent.com/92845822/140240879-27bbc56b-33cd-4ac7-9b05-9efdae1386c9.png)
 
 
 # Bài 2
@@ -69,6 +71,8 @@ int Sumofn(int n)
 - Lấy số dư và tiếp tục chạy hàm với `n = n/10`.
 - [Xem code tại đây.](https://github.com/Tsouth113/Write-up-BHT/blob/main/Code%20l%C6%B0u%20%C4%91%C3%B4%CC%80%20thu%C3%A2%CC%A3t%20toa%CC%81n/2.cpp)
 
+	![image](https://user-images.githubusercontent.com/92845822/140241068-bd9b7079-f55c-44ed-b355-e4bb65d1f552.png)
+
 
 
 
@@ -96,6 +100,8 @@ Áp dụng tương tự từ lưu đồ:
 
 - [Xem code tại đây.](https://github.com/Tsouth113/Write-up-BHT/blob/main/Code%20l%C6%B0u%20%C4%91%C3%B4%CC%80%20thu%C3%A2%CC%A3t%20toa%CC%81n/3.cpp)
 
+	![image](https://user-images.githubusercontent.com/92845822/140241212-8b9d32e8-7727-4887-bf15-f74b2a28c3c2.png)
+
 
 
 # Bài 4
@@ -114,6 +120,7 @@ Áp dụng tương tự từ lưu đồ:
 - Vì số lần lặp biết trước là `n` nên ta dùng `for`, ngoài ra khi cập nhật biến ta dùng các toán tử gán `+= , *=`.
 - [Xem code tại đây.](https://github.com/Tsouth113/Write-up-BHT/blob/main/Code%20l%C6%B0u%20%C4%91%C3%B4%CC%80%20thu%C3%A2%CC%A3t%20toa%CC%81n/4.cpp)
 
+	![image](https://user-images.githubusercontent.com/92845822/140241266-da7e0c0d-1f58-4775-895b-81091b6b6485.png)
 
 
 
@@ -141,6 +148,7 @@ Áp dụng tương tự từ lưu đồ:
 - Vì số lần lặp biết trước là `n` nên ta dùng `for`.
 - [Xem code tại đây.](https://github.com/Tsouth113/Write-up-BHT/blob/main/Code%20l%C6%B0u%20%C4%91%C3%B4%CC%80%20thu%C3%A2%CC%A3t%20toa%CC%81n/5.cpp)
 
+	![image](https://user-images.githubusercontent.com/92845822/140241338-4642a941-f04e-4269-a4c3-b820a384d95a.png)
 
 
 
@@ -166,7 +174,8 @@ Bài này mấu chốt nằm ở **độ chính xác 10^-6** nên khi h
 - Bài này không biết trước số vòng lặp nên ta dùng `while` với điều kiện `1/e >= 0.000001` 
 - [Xem code tại đây.](https://github.com/Tsouth113/Write-up-BHT/blob/main/Code%20l%C6%B0u%20%C4%91%C3%B4%CC%80%20thu%C3%A2%CC%A3t%20toa%CC%81n/6.cpp)
 
-
+	![image](https://user-images.githubusercontent.com/92845822/140241391-61907d59-4da0-4eb7-b2dd-553505242bc0.png)
+- Như đã nói bài này ko có input và xuất ra duy nhất 1 kết quả.
 
 
 # Bài 7
@@ -190,6 +199,7 @@ Bài này thuộc dạng vòng lặp bình thường sử dụng giá t
 Áp dụng lưu đồ thôi:
 - [Xem code tại đây.](https://github.com/Tsouth113/Write-up-BHT/blob/main/Code%20l%C6%B0u%20%C4%91%C3%B4%CC%80%20thu%C3%A2%CC%A3t%20toa%CC%81n/7.cpp)
 
+	![image](https://user-images.githubusercontent.com/92845822/140241550-4adedb3e-98a5-438e-a23e-83644bebd0e8.png)
 
 
 
@@ -201,7 +211,7 @@ Bài này bạn nắm được thuộc tính của các loại tam giác
 
 ### Lưu đồ:
 - [Xem lưu đồ tại đây.](https://user-images.githubusercontent.com/92845822/140025309-b1769f4c-4873-4f27-b2e4-8e45e859422b.png)
-- Điều kiện để đó là 3 cạnh của tam giác:
+- Sử dụng bất đẳng thức tam giác để làm điều kiện đó là 3 cạnh của tam giác:
  
  	![image](https://user-images.githubusercontent.com/92845822/140090814-1792f0b3-4f62-4e0d-ad12-41ab9199c0a9.png)
 
@@ -247,7 +257,11 @@ Bài này bạn nắm được thuộc tính của các loại tam giác
 ```
 - [Xem code tại đây.](https://github.com/Tsouth113/Write-up-BHT/blob/main/Code%20l%C6%B0u%20%C4%91%C3%B4%CC%80%20thu%C3%A2%CC%A3t%20toa%CC%81n/8.cpp)
 
+	![image](https://user-images.githubusercontent.com/92845822/140241738-a05f6708-1018-4f14-9ef5-2478dfef85b3.png)	
+	![image](https://user-images.githubusercontent.com/92845822/140242109-e0b977b6-5375-46dc-906d-0bd35964f95c.png)
 
+
+- Bắt buộc phải nhập 3 số là 3 cạnh của tam giác nếu không phải thì nhập khi nào phải thì thôi :))
 
 
 # Bài 9
@@ -268,6 +282,11 @@ Bài này cò nhiều cách nhưng mình sẻ sử dụng vòng lặp �
 ### Code:
 Code từ lưu đồ trên:
 - [Xem code tại đây.](https://github.com/Tsouth113/Write-up-BHT/blob/main/Code%20l%C6%B0u%20%C4%91%C3%B4%CC%80%20thu%C3%A2%CC%A3t%20toa%CC%81n/9.cpp)
+
+	![image](https://user-images.githubusercontent.com/92845822/140242505-415309d7-270a-4ff6-b3e8-ff88531d14fa.png)
+	![image](https://user-images.githubusercontent.com/92845822/140242449-c82c4198-eee5-4ee5-90a9-d4e2a36db552.png)
+
+
 
 Ngoài ra trong c++ còn có ép kiểu nên bạn có thể làm vậy (gọi `cmath` để dùng `sqrt`):
 ```cpp
@@ -298,6 +317,13 @@ Như vậy khi ta lặp lại việc `/ 5` cho tới khi còn lại 1 số
 Code từ lưu đồ trên:
 - [Xem code tại đây.](https://github.com/Tsouth113/Write-up-BHT/blob/main/Code%20l%C6%B0u%20%C4%91%C3%B4%CC%80%20thu%C3%A2%CC%A3t%20toa%CC%81n/10_1.cpp)
 - Đối với `n = 1` thì mình sẽ gán cho cho n = 0 luôn để có thể thỏa mãn các điều kiện xuất `đúng`.
+	
+	![image](https://user-images.githubusercontent.com/92845822/140242650-0a755007-95db-4161-bfd5-844877830eaf.png)
+	![image](https://user-images.githubusercontent.com/92845822/140242743-e8593d5d-2442-43b8-9b5e-d0c478bfb682.png)
+	![image](https://user-images.githubusercontent.com/92845822/140243193-7906f3df-0352-4132-9db0-2e5e7c1f98e6.png)
+
+	
+
 
 Ngoài ra mình còn cách khác tạo hàm `bool` và sử dụng đệ quy để kiểm tra:
 ```cpp
@@ -320,3 +346,10 @@ bool check(int n)
 - Các điều kiện cũng lấy từ lưu đồ nhưng sử dụng đệ quy sẽ gọn hơn và phù hợp với việc duyệt 1 dãy số.
 - Hàm sẽ chạy lại tới khi 1 trong 2 điều kiện trên thỏa và trả về `true` hoặc `false`,
 - [Xem code tại đây.](https://github.com/Tsouth113/Write-up-BHT/blob/main/Code%20l%C6%B0u%20%C4%91%C3%B4%CC%80%20thu%C3%A2%CC%A3t%20toa%CC%81n/10_2.cpp)
+- Kết quả tương tự thôi.
+
+	![image](https://user-images.githubusercontent.com/92845822/140242963-2f851da2-fc25-49e8-a7fd-4f2c533a68f4.png)
+	![image](https://user-images.githubusercontent.com/92845822/140243053-16286e3a-fab6-4c1c-98b3-0bae913c155a.png)
+	![image](https://user-images.githubusercontent.com/92845822/140243100-b7f2f8ee-3604-43bf-8f82-80078d44f428.png)
+
+
