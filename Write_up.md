@@ -300,8 +300,8 @@ Code từ lưu đồ trên:
 
 Ngoài ra trong c++ còn có ép kiểu nên bạn có thể làm vậy (gọi `cmath` để dùng `sqrt`):
 ```cpp
-	int temp = sqrt(n);
-	if (temp*temp ==n)
+      int temp = sqrt(n);
+      if (temp*temp ==n)
           cout << "so chinh phuong \n";
       else
           cout << "khong phai so chinh phuong \n";
