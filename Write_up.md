@@ -17,7 +17,7 @@ Bài này điều đầu tiên đập vào mình là lặp tới 11 =)
 - Lúc này số́ mũ là 2. Sau đó cùng phân tích 11 ra bằng phép chia 2:
   - 11 / 2 = 5, r=1
   - 5 / 2  = 2, r=1
-- Như vậy để từ 2 tới 11 sẽ tốn 2 phép nhân và 2 phép cộng. Vì đây là số mũ nên +1 <=> S*x 
+- Như vậy để từ 2 tới 11 sẽ tốn 2 phép nhân và 2 phép cộng. Vì đây là số mũ nên +1 <=> `S*x`
       
     => mất thêm 4 lần nhân nữa.
 
@@ -55,7 +55,7 @@ Ta có thể lấy 1 số bất kì để phân tích:
  	<img src="https://i.imgur.com/BqHSMy0.png">
  
  - Sau mỗi vòng lặp n sẽ giảm 10 lần và dừng ngay khi `n = 0`.
- - Xuất S.
+ - Xuất `S`.
 
 ### Code:
 
@@ -93,7 +93,7 @@ int Sumofn(int n)
 ### Code:
 Áp dụng tương tự từ lưu đồ:
 - Vì số lần lặp biết trước là `n` nên ta dùng `for`, ngoài ra khi cập nhật biến ta dùng các toán tử gán `+= , *=`.
-- 1 lưu ý duy nhất là khi khởi tạo giá trị là int thì khi gán vào S phải ép kiểu để compiler không bỏ phần thập phân.
+- 1 lưu ý duy nhất là khi khởi tạo giá trị là int thì khi gán vào `S` phải ép kiểu để compiler không bỏ phần thập phân.
 ```cpp
  S += (double)tich / (double)tong;
 ```
@@ -302,7 +302,7 @@ Ngoài ra trong c++ còn có ép kiểu nên bạn có thể làm vậy
 # Bài 10
 <img src="https://i.imgur.com/ImHzqkS.png">
 
-  > Một số có dạng `5^m` sẽ là tập hợp của `m` số 5 nhân với nhau (5^2 = 5 * 5, 5^4 = 5 * 5 * 5 * 5).
+  > Một số có dạng 5^m sẽ là tập hợp của m số 5 nhân với nhau (5^2 = 5 * 5, 5^4 = 5 * 5 * 5 * 5).
 
 Như vậy khi ta lặp lại việc `/ 5` cho tới khi còn lại 1 số `5` và không có dư trong quá trình chia thì thoả.
 ### Lưu đồ:
@@ -316,7 +316,7 @@ Như vậy khi ta lặp lại việc `/ 5` cho tới khi còn lại 1 số
 ### Code:
 Code từ lưu đồ trên:
 - [Xem code tại đây.](https://github.com/Tsouth113/Write-up-BHT/blob/main/Code%20l%C6%B0u%20%C4%91%C3%B4%CC%80%20thu%C3%A2%CC%A3t%20toa%CC%81n/10_1.cpp)
-- Đối với `n = 1` thì mình sẽ gán cho cho n = 0 luôn để có thể thỏa mãn các điều kiện xuất `đúng`.
+- Đối với `n = 1` thì mình sẽ gán cho cho `n = 0` luôn để có thể thỏa mãn các điều kiện xuất `đúng`.
 	
 	![image](https://user-images.githubusercontent.com/92845822/140242650-0a755007-95db-4161-bfd5-844877830eaf.png)
 	![image](https://user-images.githubusercontent.com/92845822/140242743-e8593d5d-2442-43b8-9b5e-d0c478bfb682.png)
