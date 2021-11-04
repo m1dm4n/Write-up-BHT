@@ -289,13 +289,34 @@ Như vậy khi ta lặp lại việc `/ 5` cho tới khi còn lại 1 số
 ### Lưu đồ:
 - [Xem lưu đồ tại đây.](https://user-images.githubusercontent.com/92845822/140025416-9417af7c-b98c-4400-9c15-6907080fd1c4.png)
 - Nhập `n` với `n > 0`. Với `n = 1` thì xuất đúng luôn vì đây là 5^0.
-- Vòng lặp và điều kiện mình dùng để xét(cuối vòng lặp sẽ gá giá trị `n` mới bằng `n/5`:
- 	 ![image](https://user-images.githubusercontent.com/92845822/140118664-28a20680-4f80-4feb-b600-502ff1fa99f6.png)
-- Kết thúc vòng lặp nếu `n = 5` thì sẽ đúng còn lại sẽ chia dư thì xuất sai
-
+- Vòng lặp và điều kiện mình dùng để xét(cuối vòng lặp sẽ gán giá trị `n` mới bằng `n/5`:
+ 	![image](https://user-images.githubusercontent.com/92845822/140118664-28a20680-4f80-4feb-b600-502ff1fa99f6.png)
+- Kết thúc vòng lặp nếu `n = 5` thì xuất đúng còn lại sẽ chia dư thì xuất sai
+	![image](https://user-images.githubusercontent.com/92845822/140236037-7aa149d8-7f8f-4a81-9d3b-9c71a432b167.png)
 
 ### Code:
-- [Xem code tại đây.](https://github.com/Tsouth113/Write-up-BHT/blob/main/Code%20l%C6%B0u%20%C4%91%C3%B4%CC%80%20thu%C3%A2%CC%A3t%20toa%CC%81n/10.cpp)
-- 
+Code từ lưu đồ trên:
+- [Xem code tại đây.](https://github.com/Tsouth113/Write-up-BHT/blob/main/Code%20l%C6%B0u%20%C4%91%C3%B4%CC%80%20thu%C3%A2%CC%A3t%20toa%CC%81n/10_1.cpp)
+- Đối với `n = 1` thì mình sẽ gán cho cho n = 0 luôn để có thể thỏa mãn các điều kiện xuất `đúng`.
 
-
+Ngoài ra mình còn cách khác tạo hàm `bool` và sử dụng đệ quy để kiểm tra:
+```cpp
+bool check(int n) 
+{
+    return n == 1 ? true : (n % 5 != 0 ? false : check(n / 5));
+}
+```
+- ở trên mình lồng 2 lần toán tử 3 ngôi nên có thể hơi khó hiểu. Các bạn có thể hiểu nó tương tự dưới đây:
+```cpp
+bool check(int n) 
+{
+    if (n == 1) 
+    	return true;
+    else if (n%5 != 0) 
+    	return false;
+    return check(n / 5);
+}
+```
+- Các điều kiện cũng lấy từ lưu đồ nhưng sử dụng đệ quy sẽ gọn hơn và phù hợp với việc duyệt 1 dãy số.
+- Hàm sẽ chạy lại tới khi 1 trong 2 điều kiện trên thỏa và trả về `true` hoặc `false`,
+- [Xem code tại đây.](https://github.com/Tsouth113/Write-up-BHT/blob/main/Code%20l%C6%B0u%20%C4%91%C3%B4%CC%80%20thu%C3%A2%CC%A3t%20toa%CC%81n/10_2.cpp)
