@@ -1,6 +1,16 @@
 # Write up chi tiết #
 
-
+Mục lục:
+1. [Bài 1](https://github.com/Tsouth113/Write-up-BHT/blob/main/Write_up.md#ba%CC%80i-1)
+2. [Bài 2](https://github.com/Tsouth113/Write-up-BHT/blob/main/Write_up.md#ba%CC%80i-2) 
+3. [Bài 3](https://github.com/Tsouth113/Write-up-BHT/blob/main/Write_up.md#ba%CC%80i-3) 
+4. [Bài 4](https://github.com/Tsouth113/Write-up-BHT/blob/main/Write_up.md#ba%CC%80i-4) 
+5. [Bài 5](https://github.com/Tsouth113/Write-up-BHT/blob/main/Write_up.md#ba%CC%80i-5) 
+6. [Bài 6](https://github.com/Tsouth113/Write-up-BHT/blob/main/Write_up.md#ba%CC%80i-6)  
+7. [Bài 7](https://github.com/Tsouth113/Write-up-BHT/blob/main/Write_up.md#ba%CC%80i-7) 
+8. [Bài 8](https://github.com/Tsouth113/Write-up-BHT/blob/main/Write_up.md#ba%CC%80i-8) 
+9. [Bài 9](https://github.com/Tsouth113/Write-up-BHT/blob/main/Write_up.md#ba%CC%80i-9)
+10. [Bài 10](https://github.com/Tsouth113/Write-up-BHT/blob/main/Write_up.md#ba%CC%80i-10) 
 
 #    Bài 1  
 <img src="https://i.imgur.com/BbzX9bc.png">
